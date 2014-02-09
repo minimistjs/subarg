@@ -22,12 +22,10 @@ Contexts are denoted with square brackets:
 
 ```
 $ node example/show.js beep --beep [ boop -a 3 ] -n4 --robots [ -x 8 -y 6 ]
-{ _: [ 'beep', ']' ],
+{ _: [ 'beep' ],
   beep: { _: [ 'boop' ], a: 3 },
   n: 4,
-  robots: '[',
-  x: 8,
-  y: 6 }
+  robots: { _: [], x: 8, y: 6 } }
 ```
 
 # methods

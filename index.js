@@ -8,12 +8,14 @@ module.exports = function parse (args, opts) {
             index = i;
         }
         if (inside && /\]$/.test(args[i])) {
-            var sub = args.slice(index, i);
+            var sub = args.slice(index, i + 1);
             sub[0] = sub[0].replace(/^\[/, '');
-            sub[sub.length-1] = sub[sub.length-1].replace(/\[$/, '');
+            if (sub[0] === '') sub.shift();
             
-            args.splice(index, i, parse(sub));
+            sub[sub.length-1] = sub[sub.length-1].replace(/\]$/, '');
+            if (sub[sub.length-1] === '') sub.pop();
             
+            args.splice(index, i - 1, parse(sub));
             inside = false;
         }
     }

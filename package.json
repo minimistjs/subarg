@@ -4,7 +4,7 @@
   "description": "parse arguments with recursive contexts",
   "main": "index.js",
   "dependencies": {
-    "minimist": "~0.0.7"
+    "minimist": "^1.1.0"
   },
   "devDependencies": {
     "tape": "~2.3.2"

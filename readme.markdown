@@ -5,8 +5,9 @@ parse arguments with recursive contexts using
 
 [![build status](https://secure.travis-ci.org/minimistjs/subarg.png)](http://travis-ci.org/minimistjs/subarg)
 
-This module is useful if you need to pass arguments into a piece of code without
-coordinating ahead of time with the main program, like with a plugin system.
+This module is useful if you need to pass arguments into a piece of code without coordinating ahead of time with the main program, like with a plugin system.
+
+**Note**: This repo is a reconstruction of https://github.com/substack/subarg, via the [Internet Archive](https://web.archive.org/web/20201110211117/https://github.com/substack/subarg) and various forks.
 
 # example
 

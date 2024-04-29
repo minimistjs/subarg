@@ -3,9 +3,7 @@
 parse arguments with recursive contexts using
 [minimist](https://npmjs.org/package/minimist)
 
-[![testling badge](https://ci.testling.com/substack/subarg.png)](https://ci.testling.com/substack/subarg)
-
-[![build status](https://secure.travis-ci.org/substack/subarg.png)](http://travis-ci.org/substack/subarg)
+[![build status](https://secure.travis-ci.org/minimistjs/subarg.png)](http://travis-ci.org/minimistjs/subarg)
 
 This module is useful if you need to pass arguments into a piece of code without
 coordinating ahead of time with the main program, like with a plugin system.
@@ -13,7 +11,7 @@ coordinating ahead of time with the main program, like with a plugin system.
 # example
 
 ``` js
-var subarg = require('subarg');
+var subarg = require('@minimistjs/subarg');
 var argv = subarg(process.argv.slice(2));
 console.log(argv);
 ```

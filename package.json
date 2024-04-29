@@ -1,5 +1,5 @@
 {
-  "name": "subarg",
+  "name": "@minimistjs/subarg",
   "version": "1.0.0",
   "description": "parse arguments with recursive contexts",
   "main": "index.js",
@@ -14,9 +14,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/substack/subarg.git"
+    "url": "git://github.com/minimistjs/subarg.git"
   },
-  "homepage": "https://github.com/substack/subarg",
+  "homepage": "https://github.com/minimistjs/subarg",
   "keywords": [
     "argument",
     "option",
